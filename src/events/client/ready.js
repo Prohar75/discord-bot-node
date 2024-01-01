@@ -14,7 +14,7 @@ module.exports = {
         client.user.setActivity('pidor',{
             type: ActivityType.Custom,
             name: 'customstatus',
-            state: 'ready to work!'
+            state: '/help to see all commands'
         });
 
         if(!mongoURL) return;
